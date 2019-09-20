@@ -9,9 +9,7 @@ include Memorable::InstanceMethods
 
   @@songs = []
 
-  def initialize
-    @@songs << self
-  end
+  
 
   def self.all
     @@songs
